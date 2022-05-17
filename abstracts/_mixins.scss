@@ -1,0 +1,17 @@
+@mixin flexdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+@mixin fontdiv {
+    font-size: 120px;
+    font-family: $c-font;
+    color: $boja-teksta;
+}
+
+@mixin dimdiv {
+    width: 300px;
+    height: 250px;
+}
