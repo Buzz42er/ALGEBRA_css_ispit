@@ -17,13 +17,13 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
+
 }
 
 div {
     @include fontdiv;
     @include flexdiv;
-    @include dimdiv;    
+    @include dimdiv;
 
     border: 4px solid white;
 
@@ -34,18 +34,18 @@ div {
 
 .c {
     background-color: $siva-c;
-    animation-delay:0s;
-    
+    animation-delay: 0s;
+
 }
 
 .s1 {
     background-color: $crvena-s1;
-    animation-delay:1.5s;
+    animation-delay: 1.5s;
 }
 
 .s2 {
     background-color: $zuta-s2;
-    animation-delay:3s;
+    animation-delay: 3s;
 }
 
 @keyframes padanje {
@@ -53,10 +53,10 @@ div {
         top: -800px;
         opacity: 1;
     }
+
     100% {
         top: 0;
         opacity: 1;
-        
+
     }
 }
-
