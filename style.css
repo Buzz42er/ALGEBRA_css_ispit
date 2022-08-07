@@ -6,7 +6,7 @@
 }
 
 main {
-  background-image: url("/blur-clean.jpg");
+  background-image: url("./blur-clean.jpg");
   background-position: center;
   height: 100vh;
   display: flex;
